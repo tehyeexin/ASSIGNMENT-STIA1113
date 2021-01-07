@@ -35,25 +35,22 @@ public class Assignment2 {
 			Scanner in = new Scanner (System.in);
 			
 			System.out.println("2. Services Provided");
-			int Totalservice=3;
+			int totalService=3;
 
-			
-			for(int i=0;i<=Totalservice;i++) {
-				if(i==1)
-				{
-				System.out.println("Service No."+ i +": Count Monthly Basic Salary - RM10 per hour");
+			for(int i = 0; i <= totalService;i++) {	
+				if(i == 1) {
+					System.out.println("Service No."+ i +": Count Monthly Basic Salary - RM10 per hour");
 				}
-				else if
-				(i==2)
-				{
-				System.out.println("Service No."+ i +": Check Allowance - RM12 per hour");
+				
+				else if(i==2) {
+					System.out.println("Service No."+ i +": Check Allowance - RM12 per hour");
 				}
-				else if
-				(i==3)
-				{
-				System.out.println("Service No."+ i +": Total Of The Salary - RM15 per hour");
+				
+				else if(i==3) {
+					System.out.println("Service No."+ i +": Total Of The Salary - RM15 per hour");
 				}
 			}
+			
 			System.out.println();
 		}
 		
@@ -77,28 +74,28 @@ public class Assignment2 {
 				 
 			} while (confirm != 'Y');
 			
-				
 				if (servicenum == 1) {
 					System.out.println("Service Ordered : Count Monthly Basic Salary");
-				    System.out.println("Hours Ordered   : "+ servicehour + "hours");
+				    System.out.println("Hours Ordered   : "+ servicehour + " hours");
 				    System.out.println("Total Charge    : RM"+ servicehour*10);
 				} 
 				
 				else if (servicenum == 2) {
 					System.out.println("Service Ordered : Check Allowance");
-					System.out.println("Hours Ordered   : "+ servicehour + "hours");
+					System.out.println("Hours Ordered   : "+ servicehour + " hours");
 					System.out.println("Total Charge    : RM"+ servicehour*12);
 				} 
 				
 				else if (servicenum == 3) {
 					System.out.println("Service Ordered : Total Of The Salary");
-					System.out.println("Hours Ordered   : "+ servicehour + "hours");
+					System.out.println("Hours Ordered   : "+ servicehour + " hours");
 					System.out.println("Total Charge    : RM"+ servicehour*15);
 				} 
 				
 				else {
 					System.out.println("The number you entered is not in the services.");
 				} 
+				
 			System.out.println();
 		}
 	
@@ -116,10 +113,6 @@ public class Assignment2 {
 			else {
 				System.out.println("Please exit and re-enter the information.");
 			}
-		
-			
-		
-		
 		}
 	
 }
