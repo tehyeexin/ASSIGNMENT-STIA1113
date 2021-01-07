@@ -39,15 +39,15 @@ public class Assignment2 {
 
 			for(int i = 0; i <= totalService;i++) {	
 				if(i == 1) {
-					System.out.println("Service No."+ i +": Count Monthly Basic Salary - RM10 per hour");
+					System.out.println("Service No." + i + ": Count Monthly Basic Salary - RM10 per hour");
 				}
 				
 				else if(i==2) {
-					System.out.println("Service No."+ i +": Check Allowance - RM12 per hour");
+					System.out.println("Service No." + i + ": Check Allowance - RM12 per hour");
 				}
 				
 				else if(i==3) {
-					System.out.println("Service No."+ i +": Total Of The Salary - RM15 per hour");
+					System.out.println("Service No." + i + ": Total Of The Salary - RM15 per hour");
 				}
 			}
 			
@@ -76,20 +76,20 @@ public class Assignment2 {
 			
 				if (servicenum == 1) {
 					System.out.println("Service Ordered : Count Monthly Basic Salary");
-				    System.out.println("Hours Ordered   : "+ servicehour + " hours");
-				    System.out.println("Total Charge    : RM"+ servicehour*10);
+				    System.out.println("Hours Ordered   : " + servicehour + " hours");
+				    System.out.println("Total Charge    : RM" + servicehour*10);
 				} 
 				
 				else if (servicenum == 2) {
 					System.out.println("Service Ordered : Check Allowance");
-					System.out.println("Hours Ordered   : "+ servicehour + " hours");
-					System.out.println("Total Charge    : RM"+ servicehour*12);
+					System.out.println("Hours Ordered   : " + servicehour + " hours");
+					System.out.println("Total Charge    : RM" + servicehour*12);
 				} 
 				
 				else if (servicenum == 3) {
 					System.out.println("Service Ordered : Total Of The Salary");
 					System.out.println("Hours Ordered   : "+ servicehour + " hours");
-					System.out.println("Total Charge    : RM"+ servicehour*15);
+					System.out.println("Total Charge    : RM" + servicehour*15);
 				} 
 				
 				else {
